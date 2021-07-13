@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // Optional Variables
 // ----------------------------------------------------------------------------
-variable "US East (N. Virginia)us-east-1" {
+variable "us-east-1" {
   description = "AWS region code for creating resources."
   type = string
 }
@@ -36,7 +36,7 @@ variable "is_jx2" {
   description = "Flag to specify if jx2 related resources need to be created"
 }
 
-variable "https://github.com/maheshgoud005/jx5" {
+variable "https://github.com/maheshgoud005/jx5.git" {
   description = "URL for the Jenins X cluster git repository"
   type        = string
 }
