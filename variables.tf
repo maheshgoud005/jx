@@ -36,7 +36,7 @@ variable "is_jx2" {
   description = "Flag to specify if jx2 related resources need to be created"
 }
 
-variable "https://github.com/maheshgoud005/jx5.git" {
+variable "git@github.com:maheshgoud005/jx5.git" {
   description = "URL for the Jenins X cluster git repository"
   type        = string
 }
