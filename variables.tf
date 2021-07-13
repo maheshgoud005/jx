@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // Optional Variables
 // ----------------------------------------------------------------------------
-variable "region" {
+variable "US East (N. Virginia)us-east-1" {
   description = "AWS region code for creating resources."
   type = string
 }
@@ -36,17 +36,17 @@ variable "is_jx2" {
   description = "Flag to specify if jx2 related resources need to be created"
 }
 
-variable "jx_git_url" {
+variable "https://github.com/maheshgoud005/jx5" {
   description = "URL for the Jenins X cluster git repository"
   type        = string
 }
 
-variable "jx_bot_username" {
+variable "maheshgoud005" {
   description = "Bot username used to interact with the Jenkins X cluster git repository"
   type        = string
 }
 
-variable "jx_bot_token" {
+variable "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" {
   description = "Bot token used to interact with the Jenkins X cluster git repository"
   type        = string
 }
