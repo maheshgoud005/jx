@@ -36,9 +36,10 @@ variable "is_jx2" {
   description = "Flag to specify if jx2 related resources need to be created"
 }
 
-variable "git@github.com:maheshgoud005/jx5.git" {
+variable "jx_git_url" {
   description = "URL for the Jenins X cluster git repository"
   type        = string
+ default     = "https://github.com/maheshgoud005/jx5.git"
 }
 
 variable "maheshgoud005" {
@@ -50,3 +51,4 @@ variable "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" {
   description = "Bot token used to interact with the Jenkins X cluster git repository"
   type        = string
 }
+
