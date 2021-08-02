@@ -1,9 +1,10 @@
 // ----------------------------------------------------------------------------
 // Optional Variables
 // ----------------------------------------------------------------------------
-variable "us-east-1" {
+variable "region" {
   description = "AWS region code for creating resources."
   type = string
+  default = "us-east-1"
 }
 
 variable "cluster_version" {
@@ -42,13 +43,15 @@ variable "jx_git_url" {
  default     = "https://github.com/maheshgoud005/jx5.git"
 }
 
-variable "maheshgoud005" {
+variable "jx_bot_username" {
   description = "Bot username used to interact with the Jenkins X cluster git repository"
   type        = string
+  default = "maheshgoud005"
 }
 
-variable "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" {
+variable "jx_bot_token" {
   description = "Bot token used to interact with the Jenkins X cluster git repository"
   type        = string
+  default = "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"
 }
 
