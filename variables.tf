@@ -22,7 +22,7 @@ variable "vault_user" {
 variable "cluster_name" {
   description = "Name of the Kubernetes cluster to create"
   type        = string
-  default     = ""
+  default     = "cluster-jxtesting"
 }
 
 variable "force_destroy" {
@@ -55,3 +55,8 @@ variable "jx_bot_token" {
   default = "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"
 }
 
+variable "subnets" {
+  description = "subnets"
+  type = string
+  default = "subnet-jx123"
+}
